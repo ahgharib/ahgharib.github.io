@@ -1,0 +1,176 @@
+body
+{
+    background: url(jack-b-y39S4lk_7jU-unsplash.jpg);
+    position: relative;
+    overflow-x: hidden;
+    background-size: contain;
+    height:2100px;
+   
+}
+
+
+
+.topic
+{
+position: relative;
+font-size: 190%;
+left:33%;
+top:30px;
+color: wheat;
+font-style: italic;
+font-stretch:extra-condensed;
+-webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(245, 205, 131);
+
+}
+
+
+.title
+{
+position: relative;
+font-size: 240%;
+left:42%;
+top:65px;
+color:rgb(233, 233, 233);
+-webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(179, 178, 178);
+
+}
+
+.css
+{
+    position: relative;
+    left:-20%;
+    top:80px;
+    width:25%;
+    outline-width: 10px;
+    outline-style:groove;
+    outline-color: rgb(0, 255, 115);
+    outline-offset: 6px;
+}
+
+
+.js
+{
+    position: relative;
+    left:5.3%;
+    top:670px;
+    width:25%;
+    outline-width: 10px;
+    outline-style:groove;
+    outline-color: rgb(255, 255, 255);
+    outline-offset: 6px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(221, 192, 192);
+}
+
+
+.html
+{
+    position: relative;
+    left:17%;
+    top:74px;
+    width:25%;
+    outline-width: 10px;
+    outline-style:groove;
+    outline-color: rgb(229, 255, 0);
+    outline-offset: 6px;
+}
+
+
+.python
+{
+    position: relative;
+    left:67.5%;
+    top:400px;
+    width:25%;
+    outline-width: 10px;
+    outline-style:groove;
+    outline-color: rgb(0, 238, 255);
+    outline-offset: 6px;
+}
+
+.php
+{
+    position: relative;
+    left:32%;
+    top:640px;
+    width:25%;
+    outline-width: 10px;
+    outline-style:groove;
+    outline-color: rgb(255, 94, 0);
+    outline-offset: 6px;
+}
+
+
+
+.csslink
+{
+    position:relative;
+    font-size: 60px;
+    left: -680px;
+    top:  -100px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(204, 203, 203);
+    font-weight: bold;
+   
+}
+
+.jslink
+{
+    position:relative;
+    font-size: 60px;
+    left: -1063px;
+    top:  490px;
+    text-decoration: none;
+    color: rgb(243, 242, 242);
+    text-decoration: none;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(179, 178, 178);
+    font-weight: bold;
+}
+
+.htmllink
+{
+    position:relative;
+    font-size: 60px;
+    left: 880px;
+    top: -110px;
+    text-decoration: none;
+    color: rgb(243, 242, 242);
+    text-decoration: none;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(179, 178, 178);
+    font-weight: bold;
+}
+
+.pythonlink
+{
+    position:relative;
+    font-size: 60px;
+    left: 1300px;
+    top:  210px;
+    text-decoration: none;
+    color: rgb(243, 242, 242);
+    text-decoration: none;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(179, 178, 178);
+    font-weight: bold;
+}
+
+.phplink
+{
+    position:relative;
+    font-size: 60px;
+    color: rgb(243, 242, 242);
+    left: 960px;
+    top:  730px;
+    text-decoration: none;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: rgb(179, 178, 178);
+    font-weight: bold;
+}
+
