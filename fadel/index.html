@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>help</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen'></i>
+            <span class="logo navLogo"><a href="#">Courses</a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">Courses</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="test.html">Home</a></li>
+                    <li><a href="../meshref/about.html">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="../ahmed gharib/sign in.html">Sign in</a></li>
+                    <li><a href="../fadel/index.html">help</a></li>
+                </ul>
+            </div>
+
+            <!-- <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+
+                <div class="searchBox">
+                    <div class="searchToggle">
+                        <i class='bx bx-x cancel'></i>
+                        <i class='bx bx-search search'></i>
+                    </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div> -->
+        </div>
+        </div>
+        </div>
+    </nav>
+    <div class="tit">
+        Help page
+    </div>
+    <br>
+    <div class="par">
+        <b class="h4"> <h3>Frequenly Asked Questions:</h2> </b> <br>
+        <div class="par_1">How to Find Your Missing Course?
+            <li>Check your log in</li>
+            <li>the cousre you purchased is on the My learning page</li>
+        </div>
+        <ul>
+
+        </ul><br>
+        <div class="par_2">
+            <h3>The course is not opening?
+            </h3>
+            <ul>
+                <li>Check your internet conection</li>
+                <li>Make sure you bought the course</li>
+            </ul><br>
+            <div class="par_3">We try as much as possible to help you, If you have any other questions you can
+                <BUtton><a href="../karam/Contact us Page/index.html" target ="blank">contact us</a></BUtton>
+            </div>
+            <h3>
+                <br>
+                <p>and you can sent a feedback</p>
+        </div>
+
+        <div class="tex">
+            <label for="">How may we help you?</label>
+            <input type="search" name="search" id="" placeholder="Search for solutions">
+        </div>
+        <div class="ss"><input type="submit" value="search">
+        </div>
+</body>
+
+<script>
+    const body = document.querySelector("body"),
+        nav = document.querySelector("nav"),
+        modeToggle = document.querySelector(".dark-light"),
+        searchToggle = document.querySelector(".searchToggle"),
+        sidebarOpen = document.querySelector(".sidebarOpen"),
+        siderbarClose = document.querySelector(".siderbarClose");
+
+    let getMode = localStorage.getItem("mode");
+    if (getMode && getMode === "dark-mode") {
+        body.classList.add("dark");
+    }
+
+    modeToggle.addEventListener("click", () => {
+        modeToggle.classList.toggle("active");
+        body.classList.toggle("dark");
+
+        if (!body.classList.contains("dark")) {
+            localStorage.setItem("mode", "light-mode");
+        } else {
+            localStorage.setItem("mode", "dark-mode");
+        }
+    });
+
+    searchToggle.addEventListener("click", () => {
+        searchToggle.classList.toggle("active");
+    });
+
+    sidebarOpen.addEventListener("click", () => {
+        nav.classList.add("active");
+    });
+
+    body.addEventListener("click", e => {
+        let clickedElm = e.target;
+
+        if (!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")) {
+            nav.classList.remove("active");
+        }
+    });
+</script>
+
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <title>Sign In Form</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <!-- <link rel="stylesheet" href="https://ahgharib.github.io/ahmed%20gharib/sign%20in.css"> -->
+    <link rel="stylesheet" href="../ahmed gharib/sign in.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class='bx bx-menu sidebarOpen'></i>
+            <span class="logo navLogo">courses</span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">Courses</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <ul class="nav-links">
+                        <li><a href="../far8aly/test.html">Home</a></li>
+                        <li><a href="../meshref/about.html">About</a></li>
+                        <li><a href="../emad/blog-layout.html">Blog</a></li>
+                        <li><a href="../fadel/index.html">Help</a></li>
+                    </ul>
+            </div>
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+
+                <div class="searchBox">
+                    <div class="searchToggle">
+                        <i class='bx bx-x cancel'></i>
+                        <i class='bx bx-search search'></i>
+                    </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <form class="form" id="login">
+            <h1 class="form__title">Sign in</h1>
+            <div class="form__message form__message--error"></div>
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="Username or email">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="form__input" autofocus placeholder="Password">
+                <div class="form__input-error-message"></div>
+            </div>
+            <button class="form__button" type="submit">Continue</button>
+            <p class="form__text">
+                <!-- <a class="form__link" href="https://ahgharib.github.io/far8aly/sign%20up.html" id="linkCreateAccount">Don't have an account? Create account</a> -->
+                <a href="../far8aly/sign up.html">Don't have an account? Sign up</a>
+            </p>
+        </form>
+        <!-- <script src="https://ahgharib.github.io/ahmed%20gharib/sign%20in.js"></script> -->
+        <script src="./sign in.js"></script>
+</body>
